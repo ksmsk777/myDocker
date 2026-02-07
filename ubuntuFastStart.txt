@@ -1,0 +1,29 @@
+### PHP ##################################################
+
+Чтобы установить PHP 8.3 на Ubuntu 24.04, нужно: docs.vultr.com
+
+Добавить репозиторий PHP PPA:
+
+обновить индекс пакетов APT: sudo apt update;
+добавить репозиторий ppa:ondrej/php: sudo add-apt-repository ppa:ondrej/php;
+обновить индекс пакетов APT, чтобы применить информацию из репозитория: sudo apt update.
+Установить PHP 8.3:
+
+sudo apt install php8.3 -y.
+
+Установить commonly used PHP extensions:
+
+ sudo apt install php8.3-common php8.3-cli php8.3-opcache php8.3-mysql php8.3-xml php8.3-curl php8.3-zip php8.3-mbstring php8.3-gd php8.3-intl php8.3-bcmath -y
+Проверить установку:
+
+php -v — должна показать установленную версию PHP.
+
+
+ОБЯЗАТЕЛЬНЫ МОДУЛИ!!
+
+sudo apt install php8.3-common php8.3-cli php8.3-opcache php8.3-mysql php8.3-xml php8.3-curl php8.3-zip php8.3-mbstring php8.3-gd php8.3-intl php8.3-bcmath -y
+
+sudo apt-get install php8.3-sqlite3 !!!
+
+
+########################################################
