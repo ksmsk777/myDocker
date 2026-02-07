@@ -32,3 +32,7 @@ sudo apt-get install php8.3-sqlite3 !!!
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 plugins=(git zsh-autosuggestions)
+
+GOD MODE
+
+cd root; sudo -i
