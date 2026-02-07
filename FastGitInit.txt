@@ -22,5 +22,8 @@ $ gcmsg "Add new file" # git commit -m "Add new file"
 $ gcam "Add changes" # git commit -a -m "Add changes"
 
 
+статья про сокращенный гит
 https://habr.com/ru/articles/420529/
 
+все команды гит
+https://github.com/Oxana-S/Git-Help/blob/main/Шпаргалка%20по%20консольным%20командам%20Git.md
