@@ -8,6 +8,10 @@ git add * && git commit -m "first commit" && git push
 
 gaa && gc -m " " && gp
 
+
+
+
+
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 $ gc # git commit 
@@ -17,4 +21,6 @@ $ gcmsg "Add new file" # git commit -m "Add new file"
 
 $ gcam "Add changes" # git commit -a -m "Add changes"
 
+
+https://habr.com/ru/articles/420529/
 
