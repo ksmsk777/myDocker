@@ -5,3 +5,12 @@ git init && git add * && git commit -m "first commit" && git branch -M main git 
 #####################GIT FAST COMMIT###############################
 
 git add * && git commit -m "first commit" && git push
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+$ gc # git commit 
+
+$ gaa # Уже знакомый алиас
+$ gcmsg "Add new file" # git commit -m "Add new file"
+
+$ gcam "Add changes" # git commit -a -m "Add changes"
