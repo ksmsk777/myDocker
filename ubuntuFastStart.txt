@@ -39,6 +39,12 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 sudo apt update && sudo apt install docker-ce docker-ce-cli containerd.io -y
 
 docker -v
+
+Проверить, существует ли группа Docker: getent group docker. Если группы нет, создать её вручную: sudo groupadd docker.
+Добавить пользователя в группу Docker: sudo usermod -aG docker $USER.
+Применить изменения: выйти из текущего сеанса и войти в новый или перезагрузить машину: newgrp docker.
+
+
 ########################################################
 SSH 
 
