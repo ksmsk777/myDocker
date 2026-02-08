@@ -33,6 +33,33 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 plugins=(git zsh-autosuggestions)
 
+#############################################################
+
+### NEMO
+
+sudo apt-get install nemo -y
+
+##############################################################
+
+vs code 
+
+plugins
+
+cweijan.dbclient-jdbc ??? хз надо ли
+
+cweijan.vscode-database-client2
+gforcedev.ctrl-semicolon
+isudox.vscode-jetbrains-keybindings
+amiralizadeh9480.laravel-extra-intellisense
+bmewburn.vscode-intelephense-client
+chrisvltn.vs-code-semicolon-insertion
+
+
+
+
 GOD MODE
 
 cd root; sudo -i
+
+############################################################
+
