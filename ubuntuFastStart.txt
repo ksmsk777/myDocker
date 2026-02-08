@@ -60,6 +60,11 @@ nano ~/.docker/config.json
   "psFormat": "table {{.ID}}\\t{{.Image}}\\t{{.Status}}\\t{{.Names}}t{{.Ports}}"
 }
 
+Commands:
+
+docker inspect db-Laragain | grep "IPAddress" #ip db
+
+
 
 ########################################################
 SSH 
@@ -103,4 +108,6 @@ GOD MODE
 cd root; sudo -i
 
 ############################################################
+
+
 
