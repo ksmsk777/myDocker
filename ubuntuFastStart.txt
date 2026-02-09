@@ -70,7 +70,7 @@ ssh-keygen -t ed25519 -C "ksmsk@yandex.ru"
 ########################################################
 
 ### OH MY ZCH
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 plugins=(git zsh-autosuggestions)
 
