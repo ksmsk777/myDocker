@@ -55,8 +55,14 @@ sudo apt update && sudo apt install docker-ce docker-ce-cli containerd.io -y
 docker -v
 
 Проверить, существует ли группа Docker: getent group docker. Если группы нет, создать её вручную: sudo groupadd docker.
-Добавить пользователя в группу Docker: sudo usermod -aG docker $USER.
-Применить изменения: выйти из текущего сеанса и войти в новый или перезагрузить машину: newgrp docker.
+Добавить пользователя в группу Docker:
+
+ sudo usermod -aG docker $USER.
+
+ Применить изменения: выйти из текущего сеанса и войти в новый или перезагрузить машину: 
+ 
+ 
+ newgrp docker.
 
 
 Вывод docker ps в НОРМАЛЬНОМ ВИДЕ:
@@ -90,7 +96,9 @@ ssh-keygen -t ed25519 -C "ksmsk@yandex.ru"
 
 ### OH MY ZCH
 
+
 sudo apt install zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 
 
 plugins=(git zsh-autosuggestions)
