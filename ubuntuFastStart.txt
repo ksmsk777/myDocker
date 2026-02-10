@@ -6,7 +6,7 @@
 
 обновить индекс пакетов APT: 
 
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 
 добавить репозиторий ppa:ondrej/php: 
 
@@ -15,6 +15,8 @@ sudo add-apt-repository ppa:ondrej/php
 обновить индекс пакетов APT, чтобы применить информацию из репозитория: 
 
 sudo apt update
+
+sudo apt-get install zip
 
 Установить PHP 8.3:
 
@@ -29,11 +31,18 @@ sudo apt install php8.3-common php8.3-cli php8.3-opcache php8.3-mysql php8.3-xml
 sudo apt install php8.3-common php8.3-cli php8.3-opcache php8.3-mysql php8.3-xml php8.3-curl php8.3-zip php8.3-mbstring php8.3-gd php8.3-intl php8.3-bcmath -y
 
 sudo apt-get install php8.3-sqlite3 !!!
-sudo apt-get install zip
+
+
+######################################################
+composer 
+
+sudo apt install composer
+
 
 #######################################################
 DOCKER
-sudo apt update, sudo apt upgrade -y
+sudo apt update
+sudo apt upgrade
 
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 
